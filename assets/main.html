@@ -1,0 +1,71 @@
+<main>
+    <h1>POKEDEX</h1>
+    <section class="intro">
+        <p>This website consumes the API RESTful <a href="" target="_blank">POKÉAPI</a>. This is a purely didactic
+            project using "fetch" in JavaScript.</p>
+    </section>
+    <h2>Collection</h2>
+    <img class="load" src="assets\SVG-Loaders-master\SVG-Loaders-master\svg-loaders\oval.svg" alt="cargando">
+    <section class="grid-collection"></section>
+    <section class="link hidden">
+        <a href="" class="previous"><i class="fas fa-arrow-left"></i>PREVIOUS</a>
+        <a href="" class="next">NEXT<i class="fas fa-arrow-right"></i></a>
+    </section>
+    
+    <template>
+        <div class="card" >
+            <figure class="front" data-type="">
+                <h3 class="name"></h3>
+                <img class="img-pokemon">
+                <div class="stats">
+                    <div data-experience>
+                        <p>EXP</p>
+                        <span></span>
+                    </div>
+                    <div data-attack>
+                        <p>ATK</p>
+                        <span></span>
+                    </div>
+                    <div data-defense>
+                        <p>DEF</p>
+                        <span></span>
+                    </div>
+                </div>
+            </figure>
+            <figure class="back">
+                <h3 class="name"></h3>
+                <img class="img-pokemon">
+                <div class="stats">
+                    <div data-type>
+                        <p>Type</p>
+                        <span></span>
+                    </div>
+                    <div data-experience>
+                        <p>Experience</p>
+                        <span></span>
+                    </div>
+                    <div data-attack>
+                        <p>Attack</p>
+                        <span></span>
+                    </div>
+                    <div data-defense>
+                        <p>Defense</p>
+                        <span></span>
+                    </div>
+                    <div data-height>
+                        <p>Height</p>
+                        <span></span>
+                    </div>
+                    <div data-weight>
+                        <p>Weight</p>
+                        <span></span>
+                    </div>
+                    <div data-moves>
+                        <p >Moves</p>
+                        <span></span>
+                    </div>
+                </div>
+            </figure>
+        </div>
+    </template>
+</main>
